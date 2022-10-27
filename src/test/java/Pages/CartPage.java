@@ -27,7 +27,7 @@ public class CartPage {
     public void verifyProductAdded() {
         String VerifingProduct = driver.findElement(productVerify).getText();
 
-        //Assert.assertEquals(VerifingProduct,expectedResult);
+        Assert.assertEquals(VerifingProduct,expectedResult);
     }
 
     public void increasingQuantity() {
